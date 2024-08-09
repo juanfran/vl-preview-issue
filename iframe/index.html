@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vite App</title>
+  </head>
+  <body>
+    <div style="display: flex">
+      <!-- vite sever -->
+      <iframe
+        src="http://localhost:4001"
+        style="width: 50%; height: 100vh; border: none"
+        allow=""
+        sandbox="allow-scripts"
+      ></iframe>
+
+      <!-- vite-live-preview -->
+      <!-- allow-same-origin it's needed to work -->
+      <iframe
+        src="http://localhost:4002"
+        style="width: 50%; height: 100vh"
+        allow=""
+        sandbox="allow-scripts"
+      ></iframe>
+    </div>
+  </body>
+</html>

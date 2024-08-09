@@ -1,0 +1,16 @@
+{
+  "name": "vl-preview-issue",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite --port 4001",
+    "live-preview": "vite-live-preview --port 4002",
+    "iframe": "http-server iframe -p 3000 --cors -o"
+  },
+  "devDependencies": {
+    "http-server": "^14.1.1",
+    "vite": "^5.4.0",
+    "vite-live-preview": "^0.2.1"
+  }
+}
